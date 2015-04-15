@@ -1,0 +1,93 @@
+.container {
+	width: 1100px;
+	margin: 0 auto;
+	font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	background: #0F2E5A;
+	color: #F16B22;
+}
+
+header {
+	text-align: center;
+	border-bottom: 2px solid #fff;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	background: #fff;
+	padding: 5px;
+}
+
+#logo, #logo-h1 {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 20px;
+	margin-bottom: 30px
+}
+
+a {
+	text-decoration: none;
+	color: #F16B22;
+}
+
+a:hover {
+	color: #fff;
+}
+
+article {
+	width: 73%;
+}
+
+aside {
+	width: 20%;
+	position: absolute;
+	text-align: center;
+	margin-left: 25px;
+}
+
+article, aside {
+	display: inline-block;
+}
+
+table {
+	border-color: #fff;
+}
+
+th, td {
+	width: 300px;
+	padding: 10px;
+}
+
+td {
+	color: #fff;
+}
+
+p {
+	color: #fff;
+}
+
+
+footer {
+	border-top: 2px solid #fff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+#port {
+	text-decoration: none;
+}
+
+#port:hover {
+	color: #fff;
+	font-size: 18px;
+}
+
+#date {
+	float: right;
+}

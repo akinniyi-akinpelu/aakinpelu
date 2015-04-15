@@ -1,0 +1,91 @@
+.container {
+	margin: 0 auto;
+	width: 960px;
+	color: #fff;
+	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+	background: #007999;
+}
+
+header {
+	text-align: center;
+	margin: 20px;
+}
+
+#intro {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	margin-top: 30px;
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+
+#brain, #brain-head {
+	display: inline-block;
+	color: #fff;
+}
+
+#brain-head {
+	padding-left: 20px;
+	vertical-align: middle;
+}
+
+.gallery-align {
+	width: 240px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.img-border {
+	border: 2px solid #000;
+	border-radius: 5px;
+	max-width: 70px;
+	max-height: 100px;
+}
+
+.img-align {	
+	display: inline;		
+	margin: 5px;
+}
+
+h3, h5 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: #fff;
+	color: #007999;
+	text-align: center;
+}
+
+.button {
+	margin: 0 auto;
+	background: #007999;
+	color: #fff;
+}
+
+.button:hover {
+	background: #fff;
+	color: #007999;
+}
+
+footer {
+	border-top: 2px solid #fff;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+#port {
+	text-decoration: none;
+	color: #fff;
+}
+
+#port:hover {
+	font-size: 18px;
+}
+
+#date {
+
+	float: right;
+}

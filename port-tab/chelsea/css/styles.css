@@ -1,0 +1,133 @@
+.container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 960px;
+}
+
+header {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#logo-name {
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	color: #0A4595;
+	padding-left: 20px;
+}
+
+#logo, #logo-name {
+	display: inline-block;
+	vertical-align: top;
+}
+
+nav ul {
+	font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 20px;
+	width: 485px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 40px;
+	text-align: center;
+	border-top: 2px solid #0A4595;
+	border-bottom: 2px solid #0A4595;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 10px;
+}
+
+article {
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section-border {
+	border-bottom: 2px solid #0A4595;
+	padding-bottom: 20px;
+}
+
+h3 {
+	font-size: 27px;
+	color: #0A4595;
+}
+
+.h3-align {
+	width: 300px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: center;
+	outline: none;
+	border: 2px solid #0A4595;
+	cursor: pointer;
+}
+
+.h3-align:hover {
+	background: #0A4595;
+	color: #fff;
+}
+
+img, .p-team {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.p-team {
+	font-size: 15px;
+	width: 840px;
+	padding-left: 20px;
+}
+
+.player-style {
+	border-bottom: 2px solid #0A4595;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.player-bold {
+	font-weight: bold;
+}
+
+p {
+	font-size: 17px;
+}
+
+#table-head {
+	background: #0A4595;
+	color: #fff;
+}
+
+tr {
+	border-bottom: 2px solid #0A4595;
+}
+
+td img {
+	padding-right: 5px;
+	vertical-align: top;
+}
+
+.league, span {
+	padding-right: 10px;
+}
+
+footer {
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+#port {
+	text-decoration: none;
+	color: #000;
+}
+
+#port:hover {
+	color: #0A4595;
+	font-size: 18px;
+}
+
+#date {
+	float: right;
+}

@@ -1,0 +1,427 @@
+//Variables
+@red-link-hover: #FF0000;
+@resume-blue: #6BC2D6;
+@trebuchet-font: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+
+//Mixin
+
+/* =====================================
+              Page title text
+   ===================================== */
+
+.pg-title {
+	text-align: center;
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	font-size: 45px;
+}
+
+.to-top {
+	padding-top: 30px;
+	text-align: center;
+
+	a {
+		font-family: @trebuchet-font;
+		font-size: 18px;
+		background: #fff;
+		color: #000;
+		border-radius: 5px;
+		text-decoration: none;
+		padding: 5px;
+
+		&:hover {
+			background: @red-link-hover;
+			color: #fff;
+		}
+	}
+}
+
+/* =====================================
+                 Home Page
+   ===================================== */
+
+#page1 {
+	font-family: @trebuchet-font;
+	background: url(../images/board.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 40px;
+}
+
+/* =====================================
+                  Header
+   ===================================== */
+
+header, aside {
+	width: 960px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+//fix?
+header {
+	padding-left: 200px;
+}
+
+aside {
+	border-bottom: 2px solid #fff;
+}
+
+#img {
+	margin-top: 15px;
+	border-radius: 10px;
+}
+
+#p-hire {
+	width: 600px;
+	padding-left: 20px;
+}
+
+#photo, #p-hire {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* =====================================
+                  Navbar
+   ===================================== */
+
+nav {
+	text-align: center;
+	width: 960px;
+	margin: 0 auto;
+	border-radius: 5px;
+	background: -webkit-gradient(rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,0.7),rgba(255,255,255,1),rgba(255,255,255,1));
+	background: -webkit-radial-gradient(rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,0.7),rgba(255,255,255,1),rgba(255,255,255,1));
+	background: -moz-radial-gradient(rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,0.7),rgba(255,255,255,1),rgba(255,255,255,1));
+	background: -o-radial-gradient(rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,0.7),rgba(255,255,255,1),rgba(255,255,255,1));
+	background: -ms-radial-gradient(rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,0.7),rgba(255,255,255,1),rgba(255,255,255,1));
+
+	li { 
+		display: inline-block;
+		padding: 10px;
+	}
+
+	a {
+		text-decoration: none;
+		font-size: 18px;
+		font-weight: bold;
+		color: #000;
+		padding: 10px;
+	}
+
+	a:hover {
+		background: -webkit-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1),rgba(0,0,0,0.8));
+		background: -webkit-linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1),rgba(0,0,0,0.8));
+		background: -moz-linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1),rgba(0,0,0,0.8));
+		background: -o-linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1),rgba(0,0,0,0.8));
+		background: -ms-linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,1),rgba(0,0,0,0.8));
+		color: #fff;
+	}
+}
+
+/* =====================================
+              Carousel
+   ===================================== */
+
+#owl-demo .item img {
+    display: block;
+    width: 700px;
+    height: 400px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border: 5px solid rgba(0,0,0,0.4);
+    border-radius: 20px;
+}
+
+/* =====================================
+               Resume Page
+   ===================================== */
+
+#page2 {
+	font-family: @trebuchet-font;
+	background: @resume-blue;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.resume-align {
+	width: 700px;
+    margin: 0 auto;
+    background: #000;
+    color: @resume-blue;
+}
+
+.resume-h1 {
+	margin: 0;
+	padding: 10px;
+	border: 5px solid @resume-blue;
+	cursor: pointer;
+	outline: none;
+
+	&:hover {
+		background: #fff;
+		color: @resume-blue;
+	}
+}
+
+.resume-padding {
+	border: 5px solid @resume-blue;
+	padding: 10px;
+}
+
+/* =====================================
+              Portfolio Page
+   ===================================== */
+
+#page3 {
+	font-family: @trebuchet-font;
+    color: #fff;
+    background-image: url(../images/blue.jpg);
+	background-size: cover;
+	background-position: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#port-margin {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.description {
+	width: 700px;
+	padding-left: 20px;
+}
+
+.description, .img-description {
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+
+.img-description:hover {
+	border: 3px solid @red-link-hover;
+	border-radius: 8px;
+	width: 194px;
+	height: 102px;
+}
+
+.port-links {
+	text-decoration: none;
+	color: #fff;
+
+	&:hover {
+		color: @red-link-hover;
+	}
+}
+
+/* =====================================
+              Contact Page
+   ===================================== */
+
+#page4 {
+	font-family: @trebuchet-font;
+	color: #000;
+	background: #eee;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* =====================================
+                   Form
+   ===================================== */
+
+#form-background {
+	height: 450px;
+	width: 750px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+#contact-info-section {
+	width: 400px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	background: #fff;
+}
+
+#p-email, #p-cell {
+	display: block;
+	padding-bottom: 15px;
+}
+
+.contact-info {
+	display: inline-block;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+#form-box {
+	width: 660px;
+	margin: 0 auto;
+}
+
+#form-box-left {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 25px;
+	padding-top: 5px;
+	height: 300px;
+	width: 300px;
+}
+
+#form-box-right {
+	display: inline-block;
+	vertical-align: middle;
+	height: 325px;
+	width: 300px;
+}
+
+#name, #name2, #email, #phone, #message {
+	display: block;
+    font-size: 18px;
+	border: 3px solid #eee;
+	margin: 10px;
+    padding: 5px;
+}
+
+label[for="name"] {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#ie-margin {
+	margin-bottom: 30px;
+}
+
+#message {
+	max-height: 100px;
+	max-width: 315px;
+}
+
+input[type="submit"] {
+    background: #E90000;
+    color: #fff;
+    border: none;
+	border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 95px 10px 95px;
+
+    &:hover {
+		background: #009900;
+	}
+}
+
+input:focus, textarea:focus {
+	outline-color: #000;
+	outline-width: 15px;
+	box-shadow: 0 0 8px #000;
+}
+
+/*fix for phone inputs*/
+input:invalid {
+	outline-color: @red-link-hover;
+	outline-width: 15px;
+	box-shadow: 0 0 8px #000;
+}
+
+/* =====================================
+              Checkbox Format
+   ===================================== */
+
+input[type=checkbox].css-checkbox {
+	position: absolute;
+	z-index: -1000;
+	left: -1000px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+	padding-left: 21px;
+	height: 16px; 
+	display: inline-block;
+	line-height: 16px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	font-size: 16px;
+	vertical-align: middle;
+	cursor: pointer;
+
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+	background-position: 0 -16px;
+}
+
+label.css-label {
+	background-image: url(http://csscheckbox.com/checkboxes/u/csscheckbox_dc5c9edb76860fa6539cb27637645212.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* =====================================
+                Radio Format
+   ===================================== */
+
+input[type=radio].css-radiobox {
+	position: absolute;
+	z-index: -1000;
+	left: -1000px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+}
+
+input[type=radio].css-radiobox + label.css-label2 {
+	padding-left: 20px;
+	height: 15px; 
+	display: inline-block;
+	line-height: 15px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	font-size: 15px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+input[type=radio].css-radiobox:checked + label.css-label2 {
+	background-position: 0 -15px;
+}
+
+label.css-label2 {
+	background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_2adbce44987ccbede943f3956a38690c.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* =====================================
+                 Footer
+   ===================================== */
+
+footer {
+	background: #eee;
+	color: #000;
+	padding-bottom: 25px;
+}
+
+#date {
+	float: right;
+}
