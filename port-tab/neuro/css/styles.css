@@ -1,33 +1,60 @@
+/* =====================================
+              	Body
+   ===================================== */
+
 .container {
-	margin: 0 auto;
 	width: 960px;
-	color: #fff;
+	margin: 0 auto;
 	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 	background: #007999;
+	color: #fff;
 }
+
+
+h3, h5 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	font-weight: bold;
+	background: #fff;
+	color: #007999;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* =====================================
+              Header
+   ===================================== */
 
 header {
 	text-align: center;
 	margin: 20px;
 }
 
-#intro {
-	border-top: 2px solid #fff;
-	border-bottom: 2px solid #fff;
-	margin-top: 30px;
-	padding-top: 20px;
-	margin-bottom: 10px;
-}
-
-#brain, #brain-head {
+#brain, #brain-heading {
 	display: inline-block;
 	color: #fff;
 }
 
-#brain-head {
-	padding-left: 20px;
+#brain-heading {
 	vertical-align: middle;
+	padding-left: 20px;
 }
+
+/* =====================================
+             Intro Paragraph
+   ===================================== */
+
+#intro-p {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+}
+
+/* =====================================
+                Gallery
+   ===================================== */
 
 .gallery-align {
 	width: 240px;
@@ -37,10 +64,10 @@ header {
 }
 
 .img-border {
-	border: 2px solid #000;
-	border-radius: 5px;
 	max-width: 70px;
 	max-height: 100px;
+	border: 2px solid #000;
+	border-radius: 5px;
 }
 
 .img-align {	
@@ -48,15 +75,9 @@ header {
 	margin: 5px;
 }
 
-h3, h5 {
-	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
-	font-weight: bold;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	background: #fff;
-	color: #007999;
-	text-align: center;
-}
+/* =====================================
+              Article Buttons
+   ===================================== */
 
 .button {
 	margin: 0 auto;
@@ -68,6 +89,10 @@ h3, h5 {
 	background: #fff;
 	color: #007999;
 }
+
+/* =====================================
+                Footer
+   ===================================== */
 
 footer {
 	border-top: 2px solid #fff;

@@ -1,32 +1,17 @@
+/* =====================================
+              	All Tabs
+   ===================================== */
+
+/* ===== Body ==== */
+
 .container {
 	margin: 0 auto;
 	width: 100%;
 	max-width: 960px;
 }
 
-header {
-	width: 300px;
-	margin: 0 auto;
-	margin-top: 20px;
-	margin-bottom: 30px;
-}
-
-#logo-name {
+article {
 	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
-	color: #0A4595;
-	padding-left: 20px;
-}
-
-#logo, #logo-name {
-	display: inline-block;
-	vertical-align: top;
-}
-
-nav ul {
-	font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
-	font-size: 20px;
-	width: 485px;
-	margin: 0 auto;
 }
 
 h2 {
@@ -38,15 +23,6 @@ h2 {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	padding: 10px;
-}
-
-article {
-	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
-}
-
-.section-border {
-	border-bottom: 2px solid #0A4595;
-	padding-bottom: 20px;
 }
 
 h3 {
@@ -69,6 +45,74 @@ h3 {
 	color: #fff;
 }
 
+p {
+	font-size: 17px;
+}
+
+/* ===== Header ==== */
+
+header {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#logo-name {
+	font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+	color: #0A4595;
+	padding-left: 20px;
+}
+
+#logo, #logo-name {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* ===== Nav ==== */
+
+nav ul {
+	font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 20px;
+	width: 485px;
+	margin: 0 auto;
+}
+
+/* === Footer === */
+
+footer {
+	font-size: 16px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+#port {
+	text-decoration: none;
+	color: #000;
+}
+
+#port:hover {
+	color: #0A4595;
+	font-size: 18px;
+}
+
+#date {
+	float: right;
+}
+
+/* =====================================
+              	News Tab
+   ===================================== */
+
+.section-border {
+	border-bottom: 2px solid #0A4595;
+	padding-bottom: 20px;
+}
+
+/* =====================================
+              	First Team Tab
+   ===================================== */
+
 img, .p-team {
 	display: inline-block;
 	vertical-align: middle;
@@ -90,9 +134,9 @@ img, .p-team {
 	font-weight: bold;
 }
 
-p {
-	font-size: 17px;
-}
+/* =====================================
+              	Fixtures Tab
+   ===================================== */
 
 #table-head {
 	background: #0A4595;
@@ -110,24 +154,4 @@ td img {
 
 .league, span {
 	padding-right: 10px;
-}
-
-footer {
-	font-size: 16px;
-	margin-bottom: 20px;
-	padding-top: 20px;
-}
-
-#port {
-	text-decoration: none;
-	color: #000;
-}
-
-#port:hover {
-	color: #0A4595;
-	font-size: 18px;
-}
-
-#date {
-	float: right;
 }
