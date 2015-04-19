@@ -3,6 +3,10 @@
 @resume-blue: #6BC2D6;
 @trebuchet-font: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
 
+.container {
+	width: 100%;
+}
+
 /* =====================================
               Page title text
    ===================================== */
@@ -39,7 +43,7 @@
 
 #page1 {
 	font-family: @trebuchet-font;
-	background: url(../images/board.jpg);
+	background: url(../assets/images/board.jpg);
 	background-position: center;
 	background-size: cover;
 	padding-bottom: 40px;
@@ -50,14 +54,15 @@
    ===================================== */
 
 header, aside {
-	width: 960px;
+	width: 100%;
+	max-width: 960px;
 	margin: 0 auto;
 	color: #fff;
 }
 
 //fix?
 header {
-	padding-left: 200px;
+	padding-left: 18%;
 }
 
 aside {
@@ -70,7 +75,8 @@ aside {
 }
 
 #p-hire {
-	width: 600px;
+	width: 62%;
+	max-width: 600px;
 	padding-left: 20px;
 }
 
@@ -85,7 +91,8 @@ aside {
 
 nav {
 	text-align: center;
-	width: 960px;
+	width: 100%;
+	max-width: 960px;
 	margin: 0 auto;
 	border-radius: 5px;
 	background: -webkit-gradient(rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,0.7),rgba(255,255,255,1),rgba(255,255,255,1));
@@ -123,7 +130,8 @@ nav {
 
 #owl-demo .item img {
     display: block;
-    width: 700px;
+    width: 72%;
+    max-width: 700px;
     height: 400px;
 	margin: 0 auto;
 	margin-top: 20px;
@@ -143,7 +151,8 @@ nav {
 }
 
 .resume-align {
-	width: 700px;
+	width: 72%;
+	max-width: 700px;
     margin: 0 auto;
     background: #000;
     color: @resume-blue;
@@ -173,7 +182,7 @@ nav {
 #page3 {
 	font-family: @trebuchet-font;
     color: #fff;
-    background-image: url(../images/blue.jpg);
+    background-image: url(../assets/images/blue.jpg);
 	background-size: cover;
 	background-position: center;
     padding-top: 10px;
@@ -181,12 +190,14 @@ nav {
 }
 
 #port-margin {
-    width: 960px;
+	width: 100%;
+    max-width: 960px;
     margin: 0 auto;
 }
 
 .description {
-	width: 700px;
+	width: 62%;
+	max-width: 700px;
 	padding-left: 20px;
 }
 
@@ -212,6 +223,10 @@ nav {
 	}
 }
 
+a {
+	text-decoration: none;
+}
+
 /* =====================================
               Contact Page
    ===================================== */
@@ -229,14 +244,16 @@ nav {
    ===================================== */
 
 #form-background {
+	width: 100%;
+	max-width: 750px;
 	height: 450px;
-	width: 750px;
 	background: #fff;
 	margin: 0 auto;
 }
 
 #contact-info-section {
-	width: 400px;
+	width: 53%;
+	max-width: 400px;
 	margin: 0 auto;
 	margin-bottom: 40px;
 	background: #fff;
@@ -254,7 +271,8 @@ nav {
 }
 
 #form-box {
-	width: 660px;
+	width: 88%;
+	max-width: 660px;
 	margin: 0 auto;
 }
 
@@ -263,15 +281,17 @@ nav {
 	vertical-align: middle;
 	margin: 25px;
 	padding-top: 5px;
+	width: 45%;
+	max-width: 300px;
 	height: 300px;
-	width: 300px;
 }
 
 #form-box-right {
 	display: inline-block;
 	vertical-align: middle;
+	width: 45%;
+	max-width: 300px;
 	height: 325px;
-	width: 300px;
 }
 
 #name, #name2, #email, #phone, #message {
@@ -292,8 +312,9 @@ label[for="name"] {
 }
 
 #message {
-	max-height: 100px;
 	max-width: 315px;
+	max-height: 100px;
+	// customize with media query
 }
 
 input[type="submit"] {

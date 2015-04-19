@@ -3,7 +3,8 @@
    ===================================== */
 
 .container {
-	width: 960px;
+	width: 100%;
+	max-width: 960px;
 	margin: 0 auto;
 	font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
 	background: #007999;
@@ -57,13 +58,15 @@ header {
    ===================================== */
 
 .gallery-align {
-	width: 240px;
+	width: 100%;
+	max-width: 250px;
 	margin: 0 auto;
 	margin-top: 30px;
 	margin-bottom: 40px;
 }
 
 .img-border {
+	width: 100%;
 	max-width: 70px;
 	max-height: 100px;
 	border: 2px solid #000;

@@ -3,7 +3,8 @@
    ===================================== */
 
 .container {
-	width: 1100px;
+	width: 100%;
+	max-width: 1100px;
 	margin: 0 auto;
 	font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
 	background: #0F2E5A;
@@ -40,7 +41,8 @@ article, aside {
 }
 
 article {
-	width: 700px;
+	width: 63%;
+	max-width: 700px;
 	border-right: 2px solid #fff;
 	padding-right: 40px;
 }
@@ -67,7 +69,8 @@ header {
 
 aside {
 	position: absolute;
-	width: 350px;
+	width: 31%;
+	max-width: 350px;
 }
 
 .aside-head {
@@ -83,15 +86,21 @@ aside {
 /* =====Results Table=== */
 
 .table-margin {
-	width: 300px;
+	width: 27%;
+	max-width: 300px;
 	vertical-align: middle;
 	text-align: center;
-	border-color: #fff;
+	border: 2px solid #F16B22;
 	margin-left: 45px;
 }
 
+thead {
+	border-bottom: 2px solid #F16B22;
+}
+
 th, td {
-	width: 300px;
+	width: 27%;
+	max-width: 300px;
 	padding: 10px;
 }
 
@@ -109,6 +118,15 @@ td {
 
 #audio-align {
 	margin-left: 45px;
+}
+
+video, audio {
+	outline: none;
+}
+
+audio {
+	width: 100%;
+	max-width: 300px; /*for ie audio*/
 }
 
 /* =====================================

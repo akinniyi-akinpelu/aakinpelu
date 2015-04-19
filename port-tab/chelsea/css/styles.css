@@ -31,7 +31,8 @@ h3 {
 }
 
 .h3-align {
-	width: 300px;
+	width: 100%;
+	max-width: 300px;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	text-align: center;
@@ -52,7 +53,8 @@ p {
 /* ===== Header ==== */
 
 header {
-	width: 300px;
+	width: 100%;
+	max-width: 300px;
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 30px;
@@ -72,10 +74,11 @@ header {
 /* ===== Nav ==== */
 
 nav ul {
+	width: 70%;
+	max-width: 485px;
+	margin: 0 auto;
 	font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
 	font-size: 20px;
-	width: 485px;
-	margin: 0 auto;
 }
 
 /* === Footer === */
@@ -119,8 +122,9 @@ img, .p-team {
 }
 
 .p-team {
+	width: 87%;
+	max-width: 840px;
 	font-size: 15px;
-	width: 840px;
 	padding-left: 20px;
 }
 

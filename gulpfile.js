@@ -16,7 +16,7 @@ gulp.task('default', ['watch']);
 
 // Minify Custom JS: Run manually with: "gulp build-js"
 gulp.task('build-js', function() {
-  return gulp.src('js/*.js')
+  return gulp.src('assets/js/*.js')
     .pipe(plugins.jshint())
     .pipe(plugins.jshint.reporter('jshint-stylish'))
     .pipe(plugins.uglify())
@@ -55,7 +55,7 @@ gulp.task('build-css', function() {
 
 // Default task
 gulp.task('watch', function() {
-    gulp.watch('js/*.js', ['squish-jquery']);
-    gulp.watch('js/*.js', ['build-js']);
+    gulp.watch('assets/js/*.js', ['squish-jquery']);
+    gulp.watch('assets/js/*.js', ['build-js']);
     gulp.watch('less/*.less', ['build-css']);
 });
