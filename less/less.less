@@ -56,166 +56,9 @@ header, aside {
 	color: #fff;
 }
 
-//fix?
 header {
 	padding-left: 18%;
 }
-
-/* =====================================
-             Media Queries
-   ===================================== */
-
-@media (max-width: 780px) {
-	header {
-		width: 720px;
-		padding-left: 12%;
-	}
-}
-
-@media (max-width: 540px) {
-	header {
-		width: 540px;
-		padding-left: 0;
-	}
-
-	#photo, #p-hire {
-		display: none;
-		margin-left: 15px;
-	}
-
-	#photo {
-		margin-left: 220px;
-	}
-	
-	#p-hire p {
-		width: 480px;
-	}
-
-	#p-hire h1 {
-		text-align: center;
-		padding-left: 160px;
-	}
-}
-
-@media (max-width: 390px) {
-	header {
-		width: 360px;
-		padding-left: 0;
-	}
-
-	#photo, #p-hire {
-		display: none;
-		margin-left: 15px;
-	}
-
-	#photo {
-		margin-left: 120px;
-	}
-	
-	#p-hire p {
-		width: 300px;
-	}
-
-	#p-hire h1 {
-		text-align: center;
-		padding-left: 65px;
-	}
-
-	nav {
-		padding-right: 20px;
-	}
-
-	nav li {		
-		display: block;
-		width: 100px;
-		text-align: left;
-	}
-
-	.section-pad h2 {
-		text-align: center;
-	}
-
-	.img-description, .description {
-		display: none;
-		margin-left: 30px;
-	}
-
-	.description p {
-		width: 170px;
-	}
-}
-
-@media (max-width: 320px) {
-	.pg-title {
-		font-size: 40px;
-	}
-
-	header {
-		width: 300px;
-		padding-left: 0;
-	}
-
-	#photo, #p-hire {
-		display: none;
-		margin-left: 10px;
-	}
-
-	#photo {
-		margin-left: 100px;
-	}
-	
-	#p-hire p {
-		width: 265px;
-	}
-
-	#p-hire h1 {
-		text-align: center;
-		padding-left: 65px;
-	}
-
-	nav {
-		padding-right: 20px;
-	}
-
-	nav li {		
-		display: block;
-		width: 100px;
-		text-align: left;
-	}
-
-	.section-pad h2 {
-		text-align: center;
-	}
-
-	.img-description, .description {
-		display: none;
-		margin-left: 10px;
-	}
-
-	.description p {
-		width: 170px;
-	}
-
-	#form-background {
-		height: 800px;
-	}
-
-	#form-box {
-		margin-top: 40px;
-	}
-
-	#form-box-left, #form-box-right {
-		display: block;
-	}
-
-	#form-box-left {
-		bottom: 5000px;
-	}
-}
-
-/* =====================================
-            End Media Queries
-   ===================================== */
 
 aside {
 	border-bottom: 2px solid #fff;
@@ -251,12 +94,13 @@ nav {
 	max-width: 960px;
 	margin: 0 auto;
 	border-radius: 15px;
-	background: #fff;
+	background: #eff;
+	padding-right: 20px;
 
 	li { 
 		display: inline-block;
-		padding: 10px;
 		margin-right: 10px;
+		padding: 10px;
 	}
 
 	a {
@@ -304,7 +148,7 @@ nav {
 }
 
 .resume-align {
-	width: 72%;
+	width: 100%;
 	max-width: 700px;
     margin: 0 auto;
     background: #000;
@@ -467,7 +311,6 @@ label[for="name"] {
 #message {
 	max-width: 315px;
 	max-height: 100px;
-	// customize with media query
 }
 
 input[type="submit"] {

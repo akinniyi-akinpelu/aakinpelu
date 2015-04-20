@@ -116,13 +116,14 @@ footer {
               	First Team Tab
    ===================================== */
 
-img, .p-team {
-	display: inline-block;
+.player-style img, .p-team {
+	display: flex;
+	flex-direction: row;
 	vertical-align: middle;
 }
 
 .p-team {
-	width: 87%;
+	width: 97%;
 	max-width: 840px;
 	font-size: 15px;
 	padding-left: 20px;

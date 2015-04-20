@@ -1,0 +1,109 @@
+/* =====================================
+               Media Queries
+   ===================================== */
+
+@media (min-width: 780px) {
+	img, .p-team {
+		display: flex;
+		vertical-align: middle;
+	}
+}
+
+@media (max-width: 540px) and (min-width: 400px) {
+	nav li {
+		width: 370px;
+		text-align: center;
+		display: block;
+	}
+
+	section p {
+		font-size: 15px;
+	}
+
+	.player-style img {
+		margin-left: 220px;
+		padding-bottom: 10px;
+	}
+
+	.player-style p {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 390px) and (min-width: 321px) {
+	#logo-name h1 {
+		font-size: 34px;
+	}
+
+	article h2 {
+		font-size: 36px;
+	}
+
+	nav li {
+		width: 230px;
+		text-align: center;
+		display: block;
+	}
+	
+	section h3 {
+	font-size: 22px;
+	}
+
+	section p {
+		font-size: 13px;
+	}
+
+	.player-style img {
+		margin-left: 120px;
+		padding-bottom: 10px;
+	}
+
+	.player-style p {
+		font-size: 13px;
+	}
+
+	#date, #port {
+		display: block;
+		text-align: center;
+		padding-bottom: 5px;
+	}
+}
+
+@media (max-width: 320px) {
+	#logo-name h1 {
+		font-size: 34px;
+	}
+
+	article h2 {
+		font-size: 36px;
+	}
+
+	nav li {
+		width: 200px;
+		text-align: center;
+		display: block;
+	}
+	
+	section h3 {
+	font-size: 19px;
+	}
+
+	section p {
+		font-size: 13px;
+	}
+
+	.player-style img {
+		margin-left: 100px;
+		padding-bottom: 5px;
+	}
+
+	.player-style p {
+		font-size: 13px;
+	}
+
+	#date, #port {
+		display: block;
+		text-align: center;
+		padding-bottom: 5px;
+	}
+}

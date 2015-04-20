@@ -1,20 +1,28 @@
-/*Responsive CSS*/
+/* =====================================
+               Media Queries
+   ===================================== */
 
 @media (max-width: 780px) {
-	header {
-		width: 720px;
-		padding-left: 12%;
+	nav {
+		padding-right: 30px;
+	}
+
+	.section-pad h2 {
+		text-align: center;
+	}
+
+	.img-description {
+		margin-left: 173px;
 	}
 }
 
-@media (max-width: 540px) {
+@media (max-width: 540px) and (min-width: 400px) {
 	header {
 		width: 540px;
 		padding-left: 0;
 	}
 
 	#photo, #p-hire {
-		display: none;
 		margin-left: 15px;
 	}
 
@@ -30,16 +38,42 @@
 		text-align: center;
 		padding-left: 160px;
 	}
+
+	.img-description {
+		margin-left: 90px;
+	}
+
+	.description p {
+		width: 380px;
+	}
+
+	#form-background {
+		height: 850px;
+		padding-left: 110px;
+	}
+
+	#form-box-right {
+		margin-top: 60px;
+		width: 320px;
+	}
+
+	#form-box-left {
+		margin-top: 20px;
+	}
+
+	#date {
+		float: none;
+		text-align: center;
+	}
 }
 
-@media (max-width: 390px) {
+@media (max-width: 390px) and (min-width: 321px) {
 	header {
 		width: 360px;
 		padding-left: 0;
 	}
 
 	#photo, #p-hire {
-		display: none;
 		margin-left: 15px;
 	}
 
@@ -70,24 +104,53 @@
 		text-align: center;
 	}
 
-	.img-description, .description {
-		display: none;
+	.img-description {
 		margin-left: 30px;
 	}
 
 	.description p {
-		width: 170px;
+		font-size: 13;
+		width: 240px;
+	}
+
+	#p-email, #p-cell {
+		font-size: 14px;
+	}
+
+	.contact-info {
+		margin-left: 8px;
+	}
+
+	#form-background {
+		height: 850px;
+	}
+
+	#form-box-right {
+		margin-top: 60px;
+		width: 320px;
+	}
+
+	#form-box-left {
+		margin-top: 20px;
+	}
+
+	#date {
+		float: none;
+		text-align: center;
 	}
 }
 
-@media (max-width: 320px) and (min-width: 300px) {
+@media (max-width: 320px) {
+	.pg-title {
+		font-size: 40px;
+	}
+
 	header {
 		width: 300px;
 		padding-left: 0;
 	}
 
 	#photo, #p-hire {
-		display: none;
 		margin-left: 10px;
 	}
 
@@ -96,7 +159,7 @@
 	}
 	
 	#p-hire p {
-		width: 265px;
+		width: 255px;
 	}
 
 	#p-hire h1 {
@@ -118,16 +181,38 @@
 		text-align: center;
 	}
 
-	.img-description, .description {
-		display: none;
+	.img-description {
+		margin-left: 10px;
+	}
+
+	.img-description {
 		margin-left: 10px;
 	}
 
 	.description p {
+		font-size: 13px;
 		width: 170px;
 	}
 
-	#page4 {
-		background-color: #fff;
+	#p-email, #p-cell {
+		font-size: 14px;
+	}
+
+	#form-background {
+		height: 850px;
+	}
+
+	#form-box-right {
+		margin-top: 60px;
+		width: 320px;
+	}
+
+	#form-box-left {
+		margin-top: 20px;
+	}
+
+	#date {
+		float: none;
+		text-align: center;
 	}
 }
