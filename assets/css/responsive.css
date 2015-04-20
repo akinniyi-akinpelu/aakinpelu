@@ -1,0 +1,133 @@
+/*Responsive CSS*/
+
+@media (max-width: 780px) {
+	header {
+		width: 720px;
+		padding-left: 12%;
+	}
+}
+
+@media (max-width: 540px) {
+	header {
+		width: 540px;
+		padding-left: 0;
+	}
+
+	#photo, #p-hire {
+		display: none;
+		margin-left: 15px;
+	}
+
+	#photo {
+		margin-left: 220px;
+	}
+	
+	#p-hire p {
+		width: 480px;
+	}
+
+	#p-hire h1 {
+		text-align: center;
+		padding-left: 160px;
+	}
+}
+
+@media (max-width: 390px) {
+	header {
+		width: 360px;
+		padding-left: 0;
+	}
+
+	#photo, #p-hire {
+		display: none;
+		margin-left: 15px;
+	}
+
+	#photo {
+		margin-left: 120px;
+	}
+	
+	#p-hire p {
+		width: 300px;
+	}
+
+	#p-hire h1 {
+		text-align: center;
+		padding-left: 65px;
+	}
+
+	nav {
+		padding-right: 20px;
+	}
+
+	nav li {		
+		display: block;
+		width: 100px;
+		text-align: left;
+	}
+
+	.section-pad h2 {
+		text-align: center;
+	}
+
+	.img-description, .description {
+		display: none;
+		margin-left: 30px;
+	}
+
+	.description p {
+		width: 170px;
+	}
+}
+
+@media (max-width: 320px) {
+	header {
+		width: 300px;
+		padding-left: 0;
+	}
+
+	#photo, #p-hire {
+		display: none;
+		margin-left: 10px;
+	}
+
+	#photo {
+		margin-left: 100px;
+	}
+	
+	#p-hire p {
+		width: 265px;
+	}
+
+	#p-hire h1 {
+		text-align: center;
+		padding-left: 65px;
+	}
+
+	nav {
+		padding-right: 20px;
+	}
+
+	nav li {		
+		display: block;
+		width: 100px;
+		text-align: left;
+	}
+
+	.section-pad h2 {
+		text-align: center;
+	}
+
+	.img-description, .description {
+		display: none;
+		margin-left: 10px;
+	}
+
+	.description p {
+		width: 170px;
+	}
+
+	#page4 {
+		background-color: #fff;
+	}
+}
