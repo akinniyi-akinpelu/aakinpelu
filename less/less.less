@@ -61,6 +61,162 @@ header {
 	padding-left: 18%;
 }
 
+/* =====================================
+             Media Queries
+   ===================================== */
+
+@media (max-width: 780px) {
+	header {
+		width: 720px;
+		padding-left: 12%;
+	}
+}
+
+@media (max-width: 540px) {
+	header {
+		width: 540px;
+		padding-left: 0;
+	}
+
+	#photo, #p-hire {
+		display: none;
+		margin-left: 15px;
+	}
+
+	#photo {
+		margin-left: 220px;
+	}
+	
+	#p-hire p {
+		width: 480px;
+	}
+
+	#p-hire h1 {
+		text-align: center;
+		padding-left: 160px;
+	}
+}
+
+@media (max-width: 390px) {
+	header {
+		width: 360px;
+		padding-left: 0;
+	}
+
+	#photo, #p-hire {
+		display: none;
+		margin-left: 15px;
+	}
+
+	#photo {
+		margin-left: 120px;
+	}
+	
+	#p-hire p {
+		width: 300px;
+	}
+
+	#p-hire h1 {
+		text-align: center;
+		padding-left: 65px;
+	}
+
+	nav {
+		padding-right: 20px;
+	}
+
+	nav li {		
+		display: block;
+		width: 100px;
+		text-align: left;
+	}
+
+	.section-pad h2 {
+		text-align: center;
+	}
+
+	.img-description, .description {
+		display: none;
+		margin-left: 30px;
+	}
+
+	.description p {
+		width: 170px;
+	}
+}
+
+@media (max-width: 320px) {
+	.pg-title {
+		font-size: 40px;
+	}
+
+	header {
+		width: 300px;
+		padding-left: 0;
+	}
+
+	#photo, #p-hire {
+		display: none;
+		margin-left: 10px;
+	}
+
+	#photo {
+		margin-left: 100px;
+	}
+	
+	#p-hire p {
+		width: 265px;
+	}
+
+	#p-hire h1 {
+		text-align: center;
+		padding-left: 65px;
+	}
+
+	nav {
+		padding-right: 20px;
+	}
+
+	nav li {		
+		display: block;
+		width: 100px;
+		text-align: left;
+	}
+
+	.section-pad h2 {
+		text-align: center;
+	}
+
+	.img-description, .description {
+		display: none;
+		margin-left: 10px;
+	}
+
+	.description p {
+		width: 170px;
+	}
+
+	#form-background {
+		height: 800px;
+	}
+
+	#form-box {
+		margin-top: 40px;
+	}
+
+	#form-box-left, #form-box-right {
+		display: block;
+	}
+
+	#form-box-left {
+		bottom: 5000px;
+	}
+}
+
+/* =====================================
+            End Media Queries
+   ===================================== */
+
 aside {
 	border-bottom: 2px solid #fff;
 }
@@ -79,6 +235,10 @@ aside {
 #photo, #p-hire {
 	display: inline-block;
 	vertical-align: middle;
+}
+
+h1 {
+	font-size: 30px;
 }
 
 /* =====================================
@@ -236,14 +396,6 @@ a {
                    Form
    ===================================== */
 
-#form-background {
-	width: 100%;
-	max-width: 750px;
-	height: 450px;
-	background: #fff;
-	margin: 0 auto;
-}
-
 #contact-info-section {
 	width: 53%;
 	max-width: 400px;
@@ -261,6 +413,14 @@ a {
 	display: inline-block;
 	padding-top: 15px;
 	padding-left: 20px;
+}
+
+#form-background {
+	width: 100%;
+	max-width: 750px;
+	height: 450px;
+	background: #fff;
+	margin: 0 auto;
 }
 
 #form-box {
