@@ -28,6 +28,8 @@ h2 {
 h3 {
 	font-size: 27px;
 	color: #0A4595;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .h3-align {
@@ -116,9 +118,8 @@ footer {
               	First Team Tab
    ===================================== */
 
-.player-style img, .p-team {
-	display: flex;
-	flex-direction: row;
+img, .p-team {
+	display: inline-block;
 	vertical-align: middle;
 }
 

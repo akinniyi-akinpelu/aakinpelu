@@ -12,11 +12,21 @@
 	}
 
 	.img-description {
-		margin-left: 173px;
+		margin-left: 130px;
 	}
 }
 
-@media (max-width: 540px) and (min-width: 400px) {
+@media (max-width: 670px) {
+	nav {
+		padding: 0;
+	}
+
+	.contact-info {
+		display: block;
+	}
+}
+
+@media (max-width: 540px) and (min-width: 490px) {
 	header {
 		width: 540px;
 		padding-left: 0;
@@ -39,6 +49,10 @@
 		padding-left: 160px;
 	}
 
+	nav {
+		padding-right: 40px;
+	}
+
 	.img-description {
 		margin-left: 90px;
 	}
@@ -55,6 +69,63 @@
 	#form-box-right {
 		margin-top: 60px;
 		width: 320px;
+	}
+
+	#form-box-left {
+		margin-top: 20px;
+	}
+
+	#date {
+		float: none;
+		text-align: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.pg-title {
+		font-size: 40px;
+	}
+
+	header {
+		width: 480px;
+		padding-left: 0;
+	}
+
+	#photo {
+		margin-left: 180px;
+	}
+	
+	#p-hire p {
+		width: 420px;
+	}
+
+	#p-hire h1 {
+		text-align: center;
+		padding-left: 100px;
+	}
+
+	nav {
+		padding-right: 30px;
+	}
+
+	.section-pad h2 {
+		text-align: center;
+	}
+
+	.img-description {
+		margin-left: 70px;
+	}
+
+	.description p {
+		width: 300px;
+	}
+
+	#form-background {
+		height: 850px;
+	}
+
+	#form-box-right {
+		margin-top: 60px;
 	}
 
 	#form-box-left {
@@ -90,14 +161,11 @@
 		padding-left: 65px;
 	}
 
-	nav {
-		padding-right: 20px;
-	}
-
 	nav li {		
 		display: block;
 		width: 100px;
-		text-align: left;
+		text-align: center;
+		margin-left: 25px;
 	}
 
 	.section-pad h2 {
@@ -126,12 +194,14 @@
 	}
 
 	#form-box-right {
-		margin-top: 60px;
 		width: 320px;
+		margin-top: 60px;
+		margin-left: 20px;
 	}
 
 	#form-box-left {
 		margin-top: 20px;
+		margin-left: 40px;
 	}
 
 	#date {
@@ -150,10 +220,6 @@
 		padding-left: 0;
 	}
 
-	#photo, #p-hire {
-		margin-left: 10px;
-	}
-
 	#photo {
 		margin-left: 100px;
 	}
@@ -167,14 +233,11 @@
 		padding-left: 65px;
 	}
 
-	nav {
-		padding-right: 20px;
-	}
-
 	nav li {		
 		display: block;
 		width: 100px;
-		text-align: left;
+		text-align: center;
+		margin-left: 10px;
 	}
 
 	.section-pad h2 {
@@ -185,13 +248,9 @@
 		margin-left: 10px;
 	}
 
-	.img-description {
-		margin-left: 10px;
-	}
-
 	.description p {
 		font-size: 13px;
-		width: 170px;
+		width: 180px;
 	}
 
 	#p-email, #p-cell {
@@ -209,6 +268,7 @@
 
 	#form-box-left {
 		margin-top: 20px;
+		margin-left: 30px;
 	}
 
 	#date {

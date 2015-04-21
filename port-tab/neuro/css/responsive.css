@@ -2,18 +2,26 @@
                Media Queries
    ===================================== */
 
-@media (max-width: 780px) {
-	
+@media (max-width: 540px) {
+	#date, #port {
+		display: block;
+		text-align: center;
+		padding-bottom: 10px;
+	}
 }
 
-@media (max-width: 540px) and (min-width: 400px) {
-	
-}
-
-@media (max-width: 390px) and (min-width: 321px) {
-	
+@media (max-width: 390px) {
+	.img-border {
+		width: 200px;
+		margin: 0 auto;
+		display: block;
+	}
 }
 
 @media (max-width: 320px) {
-	
+	.img-border {
+		width: 200px;
+		margin: 0 auto;
+		display: block;
+	}
 }

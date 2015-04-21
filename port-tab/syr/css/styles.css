@@ -3,9 +3,10 @@
    ===================================== */
 
 .container {
-	width: 100%;
+	width: 80%;
 	max-width: 1100px;
 	margin: 0 auto;
+	position: relative;
 	font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
 	background: #0F2E5A;
 	color: #F16B22;
@@ -37,12 +38,11 @@ a:hover {
 }
 
 article, aside {
-	display: inline-block;
+	display: table-cell;
 }
 
 article {
 	width: 63%;
-	max-width: 700px;
 	border-right: 2px solid #fff;
 	padding-right: 40px;
 }
@@ -68,9 +68,7 @@ header {
    ===================================== */
 
 aside {
-	position: absolute;
-	width: 31%;
-	max-width: 350px;
+	width: 27%;
 }
 
 .aside-head {
@@ -86,12 +84,12 @@ aside {
 /* =====Results Table=== */
 
 .table-margin {
-	width: 27%;
-	max-width: 300px;
+	width: 88%;
+	margin: 0 auto;
 	vertical-align: middle;
 	text-align: center;
 	border: 2px solid #F16B22;
-	margin-left: 45px;
+	margin-left: 40px;
 }
 
 thead {
@@ -100,7 +98,6 @@ thead {
 
 th, td {
 	width: 27%;
-	max-width: 300px;
 	padding: 10px;
 }
 
@@ -111,7 +108,7 @@ td {
 /* =====Highlights=== */
 
 #video-align {
-	margin-left: 35px;
+	margin-left: 38px;
 }
 
 /* =====Interview=== */
@@ -124,9 +121,14 @@ video, audio {
 	outline: none;
 }
 
+video {
+	width: 100%;
+	max-width: 340px;
+}
+
 audio {
 	width: 100%;
-	max-width: 300px; /*for ie audio*/
+	max-width: 320px;
 }
 
 /* =====================================

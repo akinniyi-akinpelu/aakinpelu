@@ -3,17 +3,48 @@
    ===================================== */
 
 @media (max-width: 780px) {
-	
+	div .table-margin {
+		width: 75%;
+	}
 }
 
-@media (max-width: 540px) and (min-width: 400px) {
-	
+@media (max-width: 670px) {
+	h1 {
+		font-size: 36px;
+	}
 }
 
-@media (max-width: 390px) and (min-width: 321px) {
-	
+@media (max-width: 540px) {
+	article, aside {
+		display: block;
+		width: auto;
+	}
+
+	h1 {
+		font-size: 36px;
+	}
+}
+
+@media (max-width: 390px) {
+	article, aside {
+		display: block;
+	}
+
+	#date, #port {
+		display: block;
+		text-align: center;
+		padding-bottom: 10px;
+	}
 }
 
 @media (max-width: 320px) {
-	
+	article, aside {
+		display: block;
+	}
+
+	#date, #port {
+		display: block;
+		text-align: center;
+		padding-bottom: 10px;
+	}
 }

@@ -2,14 +2,31 @@
                Media Queries
    ===================================== */
 
-@media (min-width: 780px) {
-	img, .p-team {
-		display: flex;
-		vertical-align: middle;
+@media (max-width: 780px) {
+	nav li {
+		width: 500px;
+		text-align: center;
+	}
+
+	.player-style img {
+		margin-left: 330px;
+		padding-bottom: 10px;
 	}
 }
 
-@media (max-width: 540px) and (min-width: 400px) {
+@media (max-width: 670px) {
+	nav li {
+		width: 415px;
+		text-align: center;
+	}
+
+	.player-style img {
+		margin-left: 265px;
+		padding-bottom: 10px;
+	}
+}
+
+@media (max-width: 540px) {
 	nav li {
 		width: 370px;
 		text-align: center;
@@ -30,7 +47,7 @@
 	}
 }
 
-@media (max-width: 390px) and (min-width: 321px) {
+@media (max-width: 390px) {
 	#logo-name h1 {
 		font-size: 34px;
 	}
@@ -46,7 +63,7 @@
 	}
 	
 	section h3 {
-	font-size: 22px;
+	font-size: 20px;
 	}
 
 	section p {
@@ -71,7 +88,7 @@
 
 @media (max-width: 320px) {
 	#logo-name h1 {
-		font-size: 34px;
+		font-size: 32px;
 	}
 
 	article h2 {
@@ -85,7 +102,7 @@
 	}
 	
 	section h3 {
-	font-size: 19px;
+	font-size: 18px;
 	}
 
 	section p {
