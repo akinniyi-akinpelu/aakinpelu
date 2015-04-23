@@ -1,7 +1,7 @@
 //Variables
 @red-link-hover: #FF0000;
 @resume-blue: rgb(22, 208, 255);
-@trebuchet-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+@helvetica-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 /* =====================================
               Page title text
@@ -9,7 +9,7 @@
 
 .pg-title {
 	text-align: center;
-	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	font-family: 'helvetica MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
 	font-size: 45px;
 	letter-spacing: 1px;
 }
@@ -19,17 +19,16 @@
 	text-align: center;
 
 	a {
-		font-family: @trebuchet-font;
+		font-family: @helvetica-font;
 		font-size: 18px;
-		background: #fff;
-		color: #000;
+		background: #000;
+		color: #fff;
 		border-radius: 10px;
 		text-decoration: none;
 		padding: 5px;
 
 		&:hover {
 			background: @red-link-hover;
-			color: #fff;
 		}
 	}
 }
@@ -39,7 +38,7 @@
    ===================================== */
 
 #page1 {
-	font-family: @trebuchet-font;
+	font-family: @helvetica-font;
 	background: url(../assets/images/board.jpg);
 	background-position: center;
 	background-size: cover;
@@ -101,7 +100,7 @@ nav {
 	padding-right: 30px;
 
 	li {
-		font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+		font-family: 'helvetica MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
 		display: inline-block;
 		margin-right: 10px;
 		padding: 10px;
@@ -144,8 +143,8 @@ nav {
    ===================================== */
 
 #page2 {
-	font-family: @trebuchet-font;
-	background: @resume-blue;
+	font-family: @helvetica-font;
+	background: #fff;
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -154,25 +153,23 @@ nav {
 	width: 100%;
 	max-width: 700px;
     margin: 0 auto;
-    background: #000;
-    color: @resume-blue;
 }
 
 .resume-h1 {
-	margin: 0;
-	padding: 10px;
-	border: 5px solid @resume-blue;
-	cursor: pointer;
+	border: 5px solid #fff;
 	outline: none;
-
-	&:hover {
-		background: #fff;
-	}
+	background: @resume-blue;
+	color: #000;
+	font-weight: 700;
+	font-family: @helvetica-font;
 }
 
 .resume-padding {
-	border: 5px solid @resume-blue;
+	border: 5px solid #fff;
 	padding: 10px;
+	background: @resume-blue;
+	color: #000;
+	font-size: 75%;
 }
 
 /* =====================================
@@ -180,7 +177,7 @@ nav {
    ===================================== */
 
 #page3 {
-	font-family: @trebuchet-font;
+	font-family: @helvetica-font;
     color: #fff;
     background-image: url(../assets/images/blue.jpg);
 	background-size: cover;
@@ -209,10 +206,10 @@ nav {
 }
 
 .img-description:hover {
-	border: 3px solid @red-link-hover;
-	border-radius: 8px;
 	width: 194px;
 	height: 102px;
+	border: 3px solid #900000;
+	border-radius: 8px;
 }
 
 .port-links {
@@ -233,7 +230,7 @@ a {
    ===================================== */
 
 #page4 {
-	font-family: @trebuchet-font;
+	font-family: @helvetica-font;
 	color: #000;
 	background: #eee;
 	padding-top: 10px;
@@ -246,28 +243,15 @@ a {
 
 #contact-info-section {
 	width: 53%;
-	max-width: 400px;
+	max-width: 295px;
 	margin: 0 auto;
 	margin-bottom: 40px;
 	background: #fff;
 }
 
-#p-email, #p-cell {
-	display: block;
-}
-
-#p-email {
-	padding-bottom: 15px;
-}
-
 .contact-info {
 	display: inline-block;
-	padding-top: 15px;
-	padding-left: 20px;
-}
-
-.contact-info a {
-	padding-right: 10px;
+	padding: 10px;
 }
 
 #form-background {

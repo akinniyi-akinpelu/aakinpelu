@@ -34,12 +34,17 @@
 }
 
 @media (max-width: 670px) {
-	nav {
-		padding: 0;
+	.img-description {
+		margin-left: 140px;
+	}
+
+	#contact-info-section {
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 
 	.contact-info {
-		display: block;
+		display: inline;
 	}
 }
 
@@ -76,6 +81,16 @@
 
 	.description p {
 		width: 380px;
+	}
+
+	#contact-info-section {
+		padding-right: 5px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.contact-info {
+		display: inline;
 	}
 
 	#form-background {
@@ -135,6 +150,11 @@
 
 	.description p {
 		width: 300px;
+	}
+
+	.contact-info {
+		display: inline-block;
+		margin-left: 35px;
 	}
 
 	#form-background {
@@ -198,12 +218,9 @@
 		width: 240px;
 	}
 
-	#p-email, #p-cell {
-		font-size: 14px;
-	}
-
 	.contact-info {
-		margin-left: 8px;
+		display: inline-block;
+		margin-left: 18px;
 	}
 
 	#form-background {
@@ -270,8 +287,9 @@
 		width: 180px;
 	}
 
-	#p-email, #p-cell {
-		font-size: 14px;
+	.contact-info {
+		display: inline-block;
+		margin-left: 8px;
 	}
 
 	#form-background {
