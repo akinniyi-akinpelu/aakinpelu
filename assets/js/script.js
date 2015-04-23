@@ -29,7 +29,7 @@ $(document).ready(function() {
   });
 
   $('.to-top').click(function (e) {
-      scrollToElement('#home', 600);
+      scrollToElement('#home', 800);
   });
 
 /* =====================================

@@ -2,6 +2,19 @@
                Media Queries
    ===================================== */
 
+@media (max-width: 1305px) {
+	.description {
+		width: 70%;
+	}
+}
+
+@media (max-width: 1070px) {
+	.description {
+		width: 55%;
+	}
+}
+
+
 @media (max-width: 780px) {
 	nav {
 		padding-right: 30px;
@@ -12,7 +25,11 @@
 	}
 
 	.img-description {
-		margin-left: 130px;
+		margin-left: 160px;
+	}
+
+	.description p {
+		width: 500px;
 	}
 }
 
@@ -165,7 +182,7 @@
 		display: block;
 		width: 100px;
 		text-align: center;
-		margin-left: 25px;
+		margin-left: 40px;
 	}
 
 	.section-pad h2 {
@@ -237,7 +254,7 @@
 		display: block;
 		width: 100px;
 		text-align: center;
-		margin-left: 10px;
+		margin-left: 25px;
 	}
 
 	.section-pad h2 {

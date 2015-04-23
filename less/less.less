@@ -1,7 +1,7 @@
 //Variables
 @red-link-hover: #FF0000;
-@resume-blue: #6BC2D6;
-@trebuchet-font: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+@resume-blue: rgb(22, 208, 255);
+@trebuchet-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 /* =====================================
               Page title text
@@ -9,8 +9,9 @@
 
 .pg-title {
 	text-align: center;
-	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
 	font-size: 45px;
+	letter-spacing: 1px;
 }
 
 .to-top {
@@ -22,7 +23,7 @@
 		font-size: 18px;
 		background: #fff;
 		color: #000;
-		border-radius: 5px;
+		border-radius: 10px;
 		text-decoration: none;
 		padding: 5px;
 
@@ -57,10 +58,12 @@ header, aside {
 }
 
 header {
+	line-height: 140%;
 	padding-left: 18%;
 }
 
 aside {
+	line-height: 140%;
 	border-bottom: 2px solid #fff;
 }
 
@@ -93,11 +96,12 @@ nav {
 	width: 70%;
 	max-width: 960px;
 	margin: 0 auto;
-	border-radius: 15px;
-	background: #eee;
+	border-radius: 10px;
+	background: #fff;
 	padding-right: 30px;
 
-	li { 
+	li {
+		font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
 		display: inline-block;
 		margin-right: 10px;
 		padding: 10px;
@@ -106,7 +110,7 @@ nav {
 	a {
 		text-decoration: none;
 		font-size: 18px;
-		font-weight: bold;
+		font-weight: 700;
 		color: #000;
 		padding: 10px;
 	}
@@ -133,7 +137,6 @@ nav {
 	margin: 0 auto;
 	margin-top: 20px;
 	border: 5px solid rgba(0,0,0,0.4);
-    border-radius: 20px;
 }
 
 /* =====================================
@@ -195,6 +198,7 @@ nav {
 .description {
 	width: 100%;
 	max-width: 700px;
+	line-height: 140%;
 	padding-left: 20px;
 }
 
@@ -307,7 +311,7 @@ a {
 }
 
 label[for="name"] {
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 18px;
 }
 
