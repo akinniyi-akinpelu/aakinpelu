@@ -2,7 +2,27 @@
                Media Queries
    ===================================== */
 
+@media (max-width: 670px) {
+	.img-border {
+		display: inline;
+		width: 500px;
+		margin: 0 auto;
+	}
+
+	#date, #port {
+		display: block;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+}
+
 @media (max-width: 540px) {
+	.img-border {
+		display: inline;
+		width: 350px;
+		margin: 0 auto;
+	}
+
 	#date, #port {
 		display: block;
 		text-align: center;
