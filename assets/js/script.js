@@ -65,11 +65,35 @@ $(document).ready(function() {
     });
 
 /* =====================================
-         Form Send Button
+         	Form Validation
    ===================================== */
 
-  $("#send").click(function() {
-    $("#send").val("Thanks").css("background", "green");
-  });
+  $("#form-valid").validate({
+        rules: {
+          name: {
+            required: true,
+            minlength: 4
+          },
+
+          name2: {
+            required: true,
+            minlength: 4
+          },
+
+          email: {
+            required: true,
+            email: true
+          },
+
+          phone:{
+            required: true,
+            minlength: 10
+          },
+
+          message: {
+            rangelength:[0,1000]
+          }
+        }
+      });
 
 });

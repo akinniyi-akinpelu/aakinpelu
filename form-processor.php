@@ -65,4 +65,6 @@ $body .= "\n";
 // send email 
 mail($emailTo, $subject, $body, "From: <$emailFrom>");
 
+//redirect to
+header("Location: contact-thanks.html");
 ?>
