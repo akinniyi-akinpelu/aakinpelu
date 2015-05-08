@@ -68,7 +68,7 @@ $(document).ready(function() {
          	Form Validation
    ===================================== */
 
-  $("#form-valid").validate({
+  /*$("#form-valid").validate({
         rules: {
           name: {
             required: true,
@@ -94,6 +94,6 @@ $(document).ready(function() {
             rangelength:[0,1000]
           }
         }
-      });
+      });*/
 
 });
