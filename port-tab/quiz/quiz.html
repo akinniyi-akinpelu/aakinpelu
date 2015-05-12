@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,55 +6,231 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Quiz | Akinniyi Akinpelu | Front End Web Developer/Designer</title>
-
-  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
-
+  
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
 </head>
 
-<body>
-
+<body class="container">
   <article id="quiz">
-    <h1>Basketball Quiz</h1>
-
-    <section id="intro" class="question">
-      <a class="start" href="#"><img src="images/start.png"></a>
+    <section id="intro" class="question-section">
+      <h1>History Quiz</h1>
+      <p class="instructions">5 question history quiz. Use the back and next buttons to move through questions. Results will be revealed at the end. No time limit!</p>
+      <a href="#"><button class="start">START</button></a>
     </section>
 
-    <section class="question">
-      
+    <section class="question-section" hidden>
+      <h3 class="question">1) Who was the 19th President of the United States?</h3>
+
+      <ul class="choices">
+        <li>
+          <input data-key="a" type="radio" name="president" id="lincoln"> 
+          <label for="lincoln">Abraham Lincoln</label>
+        </li>
+
+        <li>
+          <input data-key="b" type="radio" name="president" id="gibson">
+          <label for="gibson">Mel Gibson</label>
+        </li>
+
+        <li>
+          <input data-key="c" type="radio" name="president" id="hayes"> 
+          <label for="hayes">Rutherford Hayes</label>
+        </li>
+
+        <li>
+          <input data-key="d" type="radio" name="president" id="arthur"> 
+          <label for="arthur">Chester Arthur</label>
+        </li>
+      </ul>
+
+      <div class="btn">
+        <div class="next">
+          <a class="next-btn" href="#">Next</a>
+        </div>
+
+        <div class="clear">
+          
+        </div>
+      </div>
     </section>
 
-    <section class="question">
-      
+    <section class="question-section" hidden>
+      <h3 class="question">2) Where did MLK give his "I have a dream" speech?</h3>
+
+      <ul class="choices">
+        <li>
+          <input data-key="a" type="radio" name="city" id="baltimore"> 
+          <label for="baltimore">Baltimore</label>
+        </li>
+
+        <li>
+          <input data-key="b" type="radio" name="city" id="dc">
+          <label for="dc">Washington D.C.</label> 
+        </li>
+
+        <li>
+          <input data-key="c" type="radio" name="city" id="arlington"> 
+          <label for="arlington">Arlington</label>
+        </li>
+
+        <li>
+          <input data-key="d" type="radio" name="city" id="portland">
+          <label for="portland">Portland</label>
+        </li>
+      </ul>
+
+      <div class="btn">
+        <div class="back">
+          <a class="back-btn" href="#">Back</a>
+        </div>
+
+        <div class="next">
+          <a class="next-btn" href="#">Next</a>
+        </div>
+
+        <div class="clear">
+          
+        </div>
+      </div>
     </section>
 
-    <section class="question">
-      
+    <section class="question-section" hidden>
+      <h3 class="question">3) Which countries were involved in the Battle of Midway involve?</h3>
+
+      <ul class="choices">
+        <li>
+          <input data-key="a" type="radio" name="country" id="russia"> 
+          <label for="russia">Russia and US</label>
+        </li>
+
+        <li>
+          <input data-key="b" type="radio" name="country" id="uk-jap"> 
+          <label for="uk-jap">UK and Japan</label>
+        </li>
+
+        <li>
+          <input data-key="c" type="radio" name="country" id="uk-china"> 
+          <label for="uk-china">UK and China</label>
+        </li>
+
+        <li>
+          <input data-key="d" type="radio" name="country" id="us-jap">
+          <label for="us-jap">US and Japan</label>
+        </li>
+      </ul>
+
+      <div class="btn">
+        <div class="back">
+          <a class="back-btn" href="#">Back</a>
+        </div>
+
+        <div class="next">
+          <a class="next-btn" href="#">Next</a>
+        </div>
+
+        <div class="clear">
+          
+        </div>
+      </div>
     </section>
 
-    <section class="question">
-      
+    <section class="question-section" hidden>
+      <h3 class="question">4) What was the system of racial segregation in South Africa?</h3>
+
+      <ul class="choices">
+        <li>
+          <input data-key="a" type="radio" name="system" id="discrim">
+          <label for="discrim">Discrimination</label>
+        </li>
+
+        <li>
+          <input data-key="b" type="radio" name="system" id="facism">
+          <label for="facism">Facism</label>
+        </li>
+
+        <li>
+          <input data-key="c" type="radio" name="system" id="apartheid">
+          <label for="apartheid">Apartheid</label>
+        </li>
+
+        <li>
+          <input data-key="d" type="radio" name="system" id="xeno">
+          <label for="xeno">Xenophobia</label>
+        </li>
+      </ul>
+
+      <div class="btn">
+        <div class="back">
+          <a class="back-btn" href="#">Back</a>
+        </div>
+
+        <div class="next">
+          <a class="next-btn" href="#">Next</a>
+        </div>
+
+        <div class="clear">
+          
+        </div>
+      </div>
     </section>
 
-    <section class="question">
-      
+    <section class="question-section" hidden>
+      <h3 class="question">5) When did Nigeria gain independence from the UK?</h3>
+
+      <ul class="choices">
+        <li>
+          <input data-key="a" type="radio" name="independence" id="year1">
+          <label for="year1">1960</label>
+        </li>
+
+        <li>
+          <input data-key="b" type="radio" name="independence" id="year2">
+          <label for="year2">1945</label>
+        </li>
+
+        <li>
+          <input data-key="c" type="radio" name="independence" id="year3">
+          <label for="year3">1776</label>
+        </li>
+
+        <li>
+          <input data-key="d" type="radio" name="independence" id="year4">
+          <label for="year4">1974</label>
+        </li>
+      </ul>
+
+      <div class="btn">
+        <div class="back">
+          <a class="back-btn" href="#">Back</a>
+        </div>
+
+        <div class="next">
+          <a class="btnShowResult" href="#">Finish</a>
+        </div>
+          
+        </div>
+      </div>
     </section>
 
-    <section id="finish" class="question">
+    <section id="finish" class="question-section">
       <div id="results">
-        
+
       </div> 
     </section>
 
-    <section id="progress">
-      <div id="progress-bar"></div>
-    </section> 
+    <section id="notice" hidden>*Please select an option</section>
 
-    <span id="notice">Please select an option</span>
+    <section id="progress" hidden>
+      <div id="progress-bar">
+        
+      </div>
+    </section> 
   </article>
   
   <footer>
@@ -71,6 +247,6 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-  <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
