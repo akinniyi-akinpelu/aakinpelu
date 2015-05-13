@@ -10,7 +10,6 @@ $(document).ready(function() {
 		answers = key.answers,
 		inputAnswers = [],
 		questionLength = answers.length,
-		questionStatus = $('#questionNum'),
 		questions = $('.question');
 
 	function roundScore(num, dec) {
@@ -103,8 +102,6 @@ $(document).ready(function() {
 		for (var i = 0; i <= checkedArray.length; i++) {
 			inputAnswers.push(checkedArray[i].getAttribute('data-key'));
 		}
-
-		progress.hide();
 
 		var results = checkAnswer(),
 			resultString = "",

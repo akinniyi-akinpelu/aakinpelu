@@ -1,7 +1,7 @@
 .container {
-	margin: 0 auto;
 	width: 100%;
 	max-width: 960px;
+	margin: 0 auto;
 	position: relative;
 	background: #FCFCFC;
 	font-family: 'Roboto', sans-serif;
@@ -26,7 +26,8 @@ h1 {
 }
 
 .instructions {
-	width: 400px;
+	width: 100%;
+	max-width: 400px;
 	margin: 0 auto;
 	text-align: left;
 	font-size: 19px;
@@ -61,14 +62,16 @@ h2.qTitle {
 }
 
 #intro, #finish {
-	width: 600px;
+	width: 100%;
+	max-width: 600px;
 	margin: 0 auto;
 	text-align: center;
 	padding: 25px 0;
 }
 
-.question-section, .choices { 
-    width: 600px;
+.question-section, .choices {
+	width: 100%;
+    max-width: 600px;
     margin: 0 auto;
     list-style: none;
 }
@@ -93,7 +96,8 @@ label {
 }
 
 li {
-	width: 345px;
+	width: 100%;
+	max-width: 345px;
 	margin: 10px;
 	padding: 10px;
 	background: -webkit-gradient(#666, #333);
@@ -116,7 +120,8 @@ li:hover, li.selected {
 }
 
 .btn {
-	width: 300px;
+	width: 100%;
+	max-width: 300px;
 	margin: 0 auto;
 	text-align: center;
 	padding: 10px 0;
@@ -154,8 +159,9 @@ li:hover, li.selected {
 	right: 395px;
 }
 
-#progress { 
-    width: 800px;
+#progress {
+	width: 100%;
+    max-width: 800px;
     height: 30px;
     border-radius: 15px;
     border: 3px solid #000;
@@ -166,7 +172,8 @@ li:hover, li.selected {
 
 #progress-bar {
 	width: 0;
-    height: 20px;
+	height: 100%;
+    max-height: 20px;
     margin: 5px;
     border-radius: 10px;
 	background: -webkit-gradient(#C80000, #B00000);
@@ -176,24 +183,19 @@ li:hover, li.selected {
 	background: -ms-linear-gradient(#C80000, #B00000);
 }
 
-#results {
-	margin: 10px;
-	text-align: center;
-	overflow: auto;
+.resultRow {
+	width: 100%;
+    max-width: 110px;
+    margin: 10px 25px;
+    float: left;
 }
 
-.resultRow { 
-    width: 110px; 
-    margin: 10px 25px; 
-    float: left; 
-}
-
-.correct, .incorrect {     
-	height: 20px; 
-	cursor: pointer;  
-	font-size: 16px; 
-	padding: 5px 15px; 
-	color: #4c4c4c; 
+.correct, .incorrect {
+	height: 20px;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 5px 15px;
+	color: #4c4c4c;
 	border-radius: 5px;
 }
 
@@ -206,13 +208,14 @@ li:hover, li.selected {
 	color: #F1F1F1;
 }
 
-#answer-key { 
-	text-align: center; 
-	width: 300px; 
-	padding: 15px; 
-	margin: 0 auto; 
-	clear: both; 
-	font-size: 16px; 
+#answer-key {
+	width: 100%;
+	max-width: 300px;
+	text-align: center;
+	padding: 15px;
+	margin: 0 auto;
+	clear: both;
+	font-size: 16px;
 }
 
 footer {

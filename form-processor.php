@@ -13,8 +13,8 @@ $name2 = $_POST['name2'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 
+$checkQuiz = $_POST['quiz-check'];
 $checkChelsea = $_POST['chelsea-check'];
-$checkMusic = $_POST['music-check'];
 $checkSyr = $_POST['syr-check'];
 $checkNeuro = $_POST['neuro-check'];
 
@@ -42,10 +42,10 @@ $body .= $phone;
 $body .= "\n";
 
 $body .= "Favorite websites: ";
-$body .= $checkChelsea;
+$body .= $checkQuiz;
 $body .= "\n";
 
-$body .= $checkMusic;
+$body .= $checkChelsea;
 $body .= "\n";
 
 $body .= $checkSyr;
