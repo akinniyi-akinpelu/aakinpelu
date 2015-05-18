@@ -1,5 +1,5 @@
 .container {
-	width: 100%;
+	width: 90%;
 	max-width: 960px;
 	margin: 0 auto;
 	position: relative;
@@ -26,7 +26,7 @@ h1 {
 }
 
 .instructions {
-	width: 100%;
+	width: 90%;
 	max-width: 400px;
 	margin: 0 auto;
 	text-align: left;
@@ -56,11 +56,6 @@ h1 {
 	background: -ms-linear-gradient(rgba(0,240,0,0.7),rgba(0,240,0,1),rgba(0,240,0,0.7));
 }
 
-h2.qTitle { 
-    font-size: 32px; 
-    margin-top: 30px; 
-}
-
 #intro, #finish {
 	width: 100%;
 	max-width: 600px;
@@ -69,15 +64,11 @@ h2.qTitle {
 	padding: 25px 0;
 }
 
-.question-section, .choices {
+.question-section {
 	width: 100%;
     max-width: 600px;
+    height: 350px;
     margin: 0 auto;
-    list-style: none;
-}
-
-.question-section {
-	height: 160px;
 }
 
 .question {
@@ -87,30 +78,29 @@ h2.qTitle {
 	color: #C80000;
 }
 
-.choices {
-	padding-left: 110px;
-}
-
 label {
 	cursor: pointer;
 }
 
-li {
-	width: 100%;
-	max-width: 345px;
-	margin: 10px;
+.choices .radio {
+	display: block;
+	width: 70%;
+	max-width: 350px;
+	margin: 0 auto;
+ 	margin-bottom: 10px;
+    list-style: none;
 	padding: 10px;
+	color: #fff;
 	background: -webkit-gradient(#666, #333);
 	background: -webkit-linear-gradient(#666, #333);
 	background: -moz-linear-gradient(#666, #333);
 	background: -o-linear-gradient(#666, #333);
 	background: -ms-linear-gradient(#666, #333);
-	color: #fff;
 	border: 1px solid #a1a1a1;
 	border-radius: 10px;
 }
 
-li:hover, li.selected {
+.radio:hover, .radio.selected {
 	background: -webkit-gradient(#f6f6f6, #d4d4d4);
 	background: -webkit-linear-gradient(#f6f6f6, #d4d4d4);
 	background: -moz-linear-gradient(#f6f6f6, #d4d4d4);
@@ -127,7 +117,7 @@ li:hover, li.selected {
 	padding: 10px 0;
 }
 
-.back, .next {
+.back, .next, .finish {
 	display: inline-block;
 	padding: 10px 40px;
 	background: -webkit-gradient(rgba(0,160,0,0.7),rgba(0,160,0,1),rgba(0,160,0,0.7));
@@ -136,9 +126,10 @@ li:hover, li.selected {
 	background: -o-linear-gradient(rgba(0,160,0,0.7),rgba(0,160,0,1),rgba(0,160,0,0.7));
 	background: -ms-linear-gradient(rgba(0,160,0,0.7),rgba(0,160,0,1),rgba(0,160,0,0.7));
 	border-radius: 10px;
+	cursor: pointer;
 }
 
-.back:hover, .next:hover {
+.back:hover, .next:hover, .finish:hover {
 	background: -webkit-gradient(rgba(0,0,0,0.7),rgba(0,0,0,1),rgba(0,0,0,0.7));
 	background: -webkit-linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,1),rgba(0,0,0,0.7));
 	background: -moz-linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,1),rgba(0,0,0,0.7));
@@ -152,22 +143,18 @@ li:hover, li.selected {
 }
 
 #notice {
-	position: absolute;
+	text-align: center;
 	color: #C80000;
-	padding: 10px 0;
-	bottom: 1px;
-	right: 395px;
 }
 
 #progress {
 	width: 100%;
-    max-width: 800px;
+    max-width: 802px;
     height: 30px;
-    border-radius: 15px;
-    border: 3px solid #000;
-    position: absolute;
-    left: 75px;
+    margin: 0 auto;
     margin-top: 20px;
+    border-radius: 15px;
+    border: 1px solid #000;
 }
 
 #progress-bar {
@@ -183,11 +170,17 @@ li:hover, li.selected {
 	background: -ms-linear-gradient(#C80000, #B00000);
 }
 
+.resultsHeader {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
 .resultRow {
+    display: inline-block;
 	width: 100%;
-    max-width: 110px;
-    margin: 10px 25px;
-    float: left;
+    max-width: 100px;
+    margin: 0 auto;
+    margin: 0 30px 20px 30px;
 }
 
 .correct, .incorrect {
@@ -196,32 +189,42 @@ li:hover, li.selected {
 	font-size: 16px;
 	padding: 5px 15px;
 	color: #4c4c4c;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 
 .correct {
-	background: #b2d840;
+	color: #fff;
+	background: -webkit-gradient(rgba(0,200,0,0.7),rgba(0,200,0,1),rgba(0,200,0,0.7));
+	background: -webkit-linear-gradient(rgba(0,200,0,0.7),rgba(0,200,0,1),rgba(0,200,0,0.7));
+	background: -moz-linear-gradient(rgba(0,200,0,0.7),rgba(0,200,0,1),rgba(0,200,0,0.7));
+	background: -o-linear-gradient(rgba(0,200,0,0.7),rgba(0,200,0,1),rgba(0,200,0,0.7));
+	background: -ms-linear-gradient(rgba(0,200,0,0.7),rgba(0,200,0,1),rgba(0,200,0,0.7));
 }
 
 .incorrect {
-	background: #e84545;
-	color: #F1F1F1;
+	color: #fff;
+	background: -webkit-gradient(#C80000, #B00000);
+	background: -webkit-linear-gradient(#C80000, #B00000);
+	background: -moz-linear-gradient(#C80000, #B00000);
+	background: -o-linear-gradient(#C80000, #B00000);
+	background: -ms-linear-gradient(#C80000, #B00000);
 }
 
 #answer-key {
-	width: 100%;
-	max-width: 300px;
-	text-align: center;
-	padding: 15px;
+	width: 90%;
+	max-width: 200px;
 	margin: 0 auto;
-	clear: both;
 	font-size: 16px;
+}
+
+.answersHeader {
+	font-weight: 700;
+	margin-bottom: 10px;
 }
 
 footer {
 	font-size: 16px;
-	margin-bottom: 20px;
-	padding-top: 80px;
+	margin-top: 25px;
 }
 
 #port {

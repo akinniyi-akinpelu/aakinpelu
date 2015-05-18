@@ -2,15 +2,54 @@
                Media Queries
    ===================================== */
 
+@media (max-width: 889px) {
+	.choices {
+		padding: 0;
+	}
+
+	#progress {
+		visibility: hidden;
+	}
+}
+
 @media (max-width: 780px) {
-	
+	.choices {
+		padding: 0;
+	}
+
+	#progress {
+		visibility: hidden;
+	}
 }
 
 @media (max-width: 670px) {
-	
+	.choices {
+		padding: 0;
+	}
+
+	#quiz {
+		height: 420px;
+	}
+
+	#progress {
+		visibility: hidden;
+	}
 }
 
 @media (max-width: 540px) {
+	.choices {
+		padding: 0;
+	}
+
+	#quiz {
+		height: 400px;
+		overflow: auto;
+	}
+
+	#progress {
+		visibility: hidden;
+	}
+	
 	footer, #date script {
 		float: none;
 		text-align: center;
@@ -20,6 +59,23 @@
 }
 
 @media (max-width: 390px) {
+	.choices {
+		padding: 0;
+	}
+
+	#quiz {
+		height: 430px;
+		overflow: auto;
+	}
+
+	#progress {
+		visibility: hidden;
+	}
+
+	#notice {
+		margin-top: 20px;
+	}
+
 	footer, #date script {
 		float: none;
 		text-align: center;
@@ -29,8 +85,21 @@
 }
 
 @media (max-width: 320px) {
-	.question-section {
-		
+	#quiz {
+		height: 430px;
+		overflow: auto;
+	}
+
+	#progress {
+		visibility: hidden;
+	}
+
+	#notice {
+		margin-top: 25px;
+	}
+
+	.question {
+		font-size: 14px;
 	}
 
 	footer, #date script {
