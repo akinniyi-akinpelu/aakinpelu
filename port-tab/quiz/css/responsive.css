@@ -27,7 +27,7 @@
 		padding: 0;
 	}
 
-	#quiz {
+	#finish {
 		height: 420px;
 	}
 
@@ -41,7 +41,7 @@
 		padding: 0;
 	}
 
-	#quiz {
+	#finish {
 		height: 400px;
 		overflow: auto;
 	}
@@ -73,7 +73,7 @@
 	}
 
 	#notice {
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 
 	footer, #date script {
@@ -95,7 +95,7 @@
 	}
 
 	#notice {
-		margin-top: 25px;
+		margin-top: 10px;
 	}
 
 	.question {
