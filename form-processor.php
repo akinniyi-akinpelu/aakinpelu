@@ -15,7 +15,7 @@ $phone = $_POST['phone'];
 
 $checkQuiz = $_POST['quiz-check'];
 $checkChelsea = $_POST['chelsea-check'];
-$checkSyr = $_POST['syr-check'];
+$checkPsd = $_POST['psd-check'];
 $checkNeuro = $_POST['neuro-check'];
 
 $browserSelect = $_POST['browser-select'];
@@ -48,7 +48,7 @@ $body .= "\n";
 $body .= $checkChelsea;
 $body .= "\n";
 
-$body .= $checkSyr;
+$body .= $checkPsd;
 $body .= "\n";
 
 $body .= $checkNeuro;
