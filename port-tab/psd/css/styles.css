@@ -2,7 +2,7 @@
               	Body/Article
    ===================================== */
 
-.container {
+body {
 	font-family: 'Bree Serif', serif;
 }
 
@@ -173,5 +173,153 @@ nav li:hover {
 .works {
 	width: 280px;
 	display: inline-block;
+	vertical-align: top;
 	padding-left: 35px;
+}
+
+#offer {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#offer div:first-child {
+	margin-bottom: 20px;
+}
+
+.offer-p {
+	width: 835px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#offer h2, #testimonial, #clients {
+	text-align: center;
+	color: rgb(33,144,193);
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+}
+
+.offers {
+	width: 200px;
+	display: inline-block;
+	padding-left: 35px;
+}
+
+.details {
+	float: right;
+	font-size: 12px;
+	color: #fff;
+	background: rgb(33,144,193);;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.offers h4 {
+	font-size: 17px;
+	color: rgb(33,144,193);
+	margin-bottom: 0;
+}
+
+.offers p {
+	font-size: 11px;
+}
+
+.testimonial-p {
+	width: 835px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 50px;
+	color: rgb(81,88,98);
+}
+
+footer {
+	background: rgb(46,62,79);
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+
+footer a {
+	font-size: 12px;
+	color: rgb(33,144,193);
+}
+
+#footer-bg {
+	width: 90%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.footer-div {
+	width: 220px;
+	display: inline-block;
+	margin-left: 40px;
+	vertical-align: top;
+	line-height: 110%;
+}
+
+.footer-div h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	color: rgb(249,133,97);
+}
+
+.footer-div p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	color: #fff;
+	margin: 0;
+}
+
+.newsletter {
+	width: 247px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 13px;
+}
+
+.newsletter p {
+	margin-bottom: 15px;
+}
+
+.radio {
+	color: rgb(33,144,193);
+}
+
+.radio input {
+	width: 243px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.sign-up {
+	float: right;
+	color: #fff;
+	background: rgb(33,144,193);
+	margin-top: 15px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.white, .project {
+	display: inline-block;
+}
+
+.project {
+	line-height: 110%;
+	vertical-align: top;
+	margin-left: 10px;
+}
+
+.contact-img, .contact-p {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contact-p {
+	padding-left: 10px;
 }
