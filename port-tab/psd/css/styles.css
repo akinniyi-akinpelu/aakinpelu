@@ -7,7 +7,7 @@ body {
 }
 
 header {
-	width: 100%;
+	width: 90%;
 	max-width: 960px;
 	height: 60px;
 	margin: 0 auto;
@@ -119,7 +119,7 @@ nav li:hover {
 }
 
 .our-services {
-	width: 100%;
+	width: 90%;
 	max-width: 960px;
 	margin: 0 auto;
 	margin-top: 50px;
@@ -141,7 +141,7 @@ nav li:hover {
 }
 
 .awesome-bg {
-	width: 100%;
+	width: 90%;
 	max-width: 960px;
 	margin: 0 auto;
 }
@@ -178,7 +178,7 @@ nav li:hover {
 }
 
 #offer {
-	width: 100%;
+	width: 90%;
 	max-width: 960px;
 	margin: 0 auto;
 	font-family: 'Ubuntu', sans-serif;
@@ -195,7 +195,7 @@ nav li:hover {
 	margin-bottom: 20px;
 }
 
-#offer h2, #testimonial, #clients {
+#offer h2, #testimonial, #client {
 	text-align: center;
 	color: rgb(33,144,193);
 	font-family: 'Roboto', sans-serif;
@@ -235,6 +235,42 @@ nav li:hover {
 	font-size: 25px;
 	margin-bottom: 50px;
 	color: rgb(81,88,98);
+}
+
+#taste-h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	color: rgb(33,144,193);
+}
+
+.project-div {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding-left: 90px;
+}
+
+.np-buttons {
+	width: 100%;
+	max-width: 250px;
+	margin: 0 auto;
+}
+
+.np-buttons img {
+	margin: 50px 0;
+	cursor: pointer;
+}
+
+#clients {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#clients img {
+	margin-bottom: 20px;
+	margin-left: 40px;
 }
 
 footer {
@@ -322,4 +358,18 @@ footer a {
 
 .contact-p {
 	padding-left: 10px;
+}
+
+#port {
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+#port a {
+	font-size: 14px;
+	color: #fff;
+}
+
+#port a:hover {
+	color: rgb(33,144,193);
 }
